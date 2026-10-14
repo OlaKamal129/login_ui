@@ -91,6 +91,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       if (p0 == null || p0.isEmpty) {
                         return "يرجي ادخال اسم المستخدم!!";
                       }
+                      return null;
                     },
                   ),
                   SizedBox(height: 30),
@@ -105,6 +106,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       } else if (p0.length < 4) {
                         return "password must be atleast 6 characters";
                       }
+                      return null;
                     },
                   ),
                   SizedBox(height: 100),

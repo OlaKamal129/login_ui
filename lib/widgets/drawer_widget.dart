@@ -26,7 +26,7 @@ class DrawerWidget extends StatelessWidget {
                 // alignment: Alignment(0, 0),
                 color: AppColors.lightBgColor,
                 child: Text(
-                  "تسجيل العدادات", //TODO:loclization
+                  "تسجيل العدادات", 
                   style: AppTextStyles.styleS14W600(
                     color: AppColors.mainColors,
                   ).copyWith(fontSize: 24.sp),
@@ -42,25 +42,25 @@ class DrawerWidget extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      "data1", //TODO:loclization
+                      "data1",
                       style: AppTextStyles.styleS22W700(
                         color: AppColors.mainColors,
                       ).copyWith(fontSize: 24.sp),
                     ),
                     Text(
-                      "data2", //TODO:loclization
+                      "data2", 
                       style: AppTextStyles.styleS22W700(
                         color: AppColors.mainColors,
                       ),
                     ),
                     Text(
-                      "data3", //TODO:loclization
+                      "data3", 
                       style: AppTextStyles.styleS14W400(
                         color: AppColors.mainColors,
                       ),
                     ),
                     Text(
-                      "data4", //TODO:loclization
+                      "data4", 
                       style: AppTextStyles.styleS14W400(
                         color: AppColors.mainColors,
                       ),
@@ -129,7 +129,7 @@ class DrawerWidget extends StatelessWidget {
           
              
           
-              Container(
+              SizedBox(
                 height: 60.h,
                 width: 272.w,
           

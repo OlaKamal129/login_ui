@@ -25,5 +25,5 @@ flutter:
     - assets/images/user.png
     - assets/images/login.png
     - assets/images/adadati.png
-    - assets/images/lock.png
+    -assets/images/lock-keyhole.png
     - assets/images/profile.png
