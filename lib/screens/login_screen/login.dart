@@ -1,6 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:inst_meters/screens/home_screen/home_screen.dart';
+import 'package:inst_meters/screens/meter_screen/meter_screen.dart';
 
 import 'package:inst_meters/theme/app_colors.dart';
 import 'package:inst_meters/widgets/app_text_styles.dart';
@@ -116,7 +117,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       width: 22,
                       height: 22,
                     ),
-                    onPressed: () async {},
+                    onPressed: () async {Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => const MetersScreen()),
+);},
                   ),
                   SizedBox(height: 24),
                   RichText(

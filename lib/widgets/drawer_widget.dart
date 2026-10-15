@@ -78,16 +78,7 @@ class DrawerWidget extends StatelessWidget {
                       
                        height: 60.h,
                   width: 272.w,
-                      child: Row(
-                        children: [
-                          Icon(Icons.arrow_back, color: AppColors.lightSecTextColor),
-                          Spacer(),
-                          Text("عداداتي", style: AppTextStyles.styleS14W400()),
-                         SizedBox(width: 12,),
-                         
-                         Image.asset("assets/images/adadati.png"),
-                        ],
-                      ),
+                    
                     ),
                   ),
                   Padding(
@@ -139,9 +130,9 @@ class DrawerWidget extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Image.asset("assets/images/login.png"),
+                      Image.asset("assets/images/login.png",color: AppColors.logColor,),
                       Spacer(),
-                      Text("تسجيل الخروج", style: AppTextStyles.styleS14W400()),
+                      Text("تسجيل الخروج", style: AppTextStyles.styleS14W400(color: AppColors.logColor)),
                     ],
                   ),
                 ),
